@@ -1,0 +1,18 @@
+p {
+    text-align: justify;
+}
+
+blockquote.epigraph {
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    background-color: #f9f4ef;
+    padding: 40px;
+}
+
+
+figure {
+    text-align: center;
+}
+figcaption .caption-number {
+    display: none;
+}

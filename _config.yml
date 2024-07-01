@@ -3,7 +3,7 @@
 
 title: Couldn't Stand The Weather
 author: Spencer A. Hill
-logo: logo.png
+logo: blog-logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -36,11 +36,25 @@ repository:
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
-# Add GitHub buttons to your book
-# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
+  # Add GitHub buttons.  See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
   use_issues_button: true
   use_repository_button: true
+  # Turn on 
+  comments:
+    hypothesis: true
+    utterances:
+      repo: "spencerahill/couldnt-stand-the-weather"
+  extra_footer: |
+        <div>
+            <script src="https://utteranc.es/client.js"
+                    repo="spencerahill/couldnt-stand-the-weather"
+                    issue-term="pathname"
+                    theme="github-light"
+                    crossorigin="anonymous"
+                    async>
+            </script>
+        </div>
 
 # C.f. https://jupyterbook.org/en/stable/content/math.html#math-and-equations
 sphinx:
