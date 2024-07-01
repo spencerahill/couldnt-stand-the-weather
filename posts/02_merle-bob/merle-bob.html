@@ -1,0 +1,659 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Like an eagle, I’m a prisoner of the wind &#8212; Couldn&#39;t Stand The Weather</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b76e3c8a" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=2e304346" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "spencerahill/couldnt-stand-the-weather");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/02_merle-bob/merle-bob';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="Time to get ready for the storm" href="../01_get-ready-for-storm/get-ready-for-storm.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../../home.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/blog-logo.png" class="logo__image only-light" alt="Couldn't Stand The Weather - Home"/>
+    <script>document.write(`<img src="../../_static/blog-logo.png" class="logo__image only-dark" alt="Couldn't Stand The Weather - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../home.html">
+                    Couldn’t Stand the Weather
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Posts</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../01_get-ready-for-storm/get-ready-for-storm.html">Time to get ready for the storm</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Like an eagle, I’m a prisoner of the wind</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/spencerahill/couldnt-stand-the-weather" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/spencerahill/couldnt-stand-the-weather/issues/new?title=Issue%20on%20page%20%2Fposts/02_merle-bob/merle-bob.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/posts/02_merle-bob/merle-bob.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Like an eagle, I’m a prisoner of the wind</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#avian-shackles-in-contemporary-music">Avian shackles in contemporary music</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-wisdom-traditions">In wisdom traditions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-atmospheric-and-oceanic-fluid-dynamics">In atmospheric and oceanic fluid dynamics</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="like-an-eagle-i-m-a-prisoner-of-the-wind">
+<h1>Like an eagle, I’m a prisoner of the wind<a class="headerlink" href="#like-an-eagle-i-m-a-prisoner-of-the-wind" title="Link to this heading">#</a></h1>
+<p>July 1st, 2024</p>
+<p><em>tl;dr: For millennia, the imagery of being bound to the wind has been used to convey the seeming freedom—but ultimate folly—of being completely unbeholden to others.</em></p>
+<section id="avian-shackles-in-contemporary-music">
+<h2>Avian shackles in contemporary music<a class="headerlink" href="#avian-shackles-in-contemporary-music" title="Link to this heading">#</a></h2>
+<img alt="Album cover of Mama Tried by Merle Haggard" class="align-center" src="../../_images/mama-tried.jpg" />
+<p>The last track of Merle Haggard’s 1968 classic <a class="reference external" href="https://en.wikipedia.org/wiki/Mama_Tried_(album)"><em>Mama Tried</em></a> is the
+beautiful “Too Many Bridges to Cross Over” written by <a class="reference external" href="https://en.wikipedia.org/wiki/Dallas_Frazier">Dallas Frazier</a>.  Here’s the <a class="reference external" href="https://www.youtube.com/watch?v=OD8M5G8G6dQ">official recording</a>.  Here are the <a class="reference external" href="https://genius.com/Merle-haggard-too-many-bridges-to-cross-over-lyrics">lyrics</a>:</p>
+<blockquote class="epigraph">
+<div><p>[Verse 1]<br>
+Be close to me, but please don’t ever love me<br>
+Don’t let your feelings carry you that far<br>
+I’ll hold you in my arms<br>
+Buy you clothes and pretty charms<br>
+And I’ll give you everything except my love<br></p>
+<p>[Chorus]<br>
+Because there’s too many bridges to cross over<br>
+Too many places I ain’t been<br>
+Yeah there’s too many fields of tempting clover<br>
+<strong>Like an eagle, I’m a prisoner of the wind</strong><br></p>
+<p>[Verse 2]<br>
+Well ‘traveling’ was the nickname of my papa<br>
+And Mama said he died ‘cause he slowed down<br>
+Keep in mind these things I’m saying<br>
+‘Cause I ain’t got the time to staying<br>
+Won’t be long until my shoes touch distant ground<br></p>
+<p>[Chorus]<br>
+Because there’s too many bridges to cross over<br>
+Too many places I ain’t been<br>
+Yeah there’s too many fields of tempting clover<br>
+<strong>Like an eagle, I’m a prisoner of the wind</strong><br></p>
+<p class="attribution">—“Too Many Bridges to Cross Over”, performed by Merle Haggard, written by Dallas Frazier</p>
+</div></blockquote>
+<p>This is a gem of what I’ll call the “rambler’s lament” genre (one of <em>very many</em> Merle recorded) — wherein a good-timing, free-flying person (usually male) knows the pain that his rambling lifestyle causes, feels terrible about it, but sees it as inextricably part of who he is and just can’t help it.  Think also Eric Clapton’s <a class="reference external" href="https://www.youtube.com/watch?v=V5dqnbFKI9Q">“Lonely Stranger”</a> (<a class="reference external" href="https://genius.com/Eric-clapton-lonely-stranger-acoustic-live-lyrics">lyrics</a>), Jackson Browne’s <a class="reference external" href="https://youtu.be/4BbzBFUUyCs?si=jp2e88RQRPUrtRXq">“Love Needs A Heart”</a> (<a class="reference external" href="https://genius.com/Jackson-browne-love-needs-a-heart-lyrics">lyrics</a>), or Kanye West’s <a class="reference external" href="https://www.youtube.com/watch?v=wMH0e8kIZtE">“Welcome to Heartbreak”</a> (<a class="reference external" href="https://genius.com/Kanye-west-welcome-to-heartbreak-lyrics">lyrics</a>).</p>
+<p>The last line of the repeated chorus, “Like an eagle, I’m a prisoner of the wind,” is so beautiful, and it reminded me of the very last line by Bob Dylan’s <a class="reference external" href="https://vimeo.com/316216769">“Ballad in Plain D”</a> (<a class="reference external" href="https://genius.com/Bob-dylan-ballad-in-plain-d-lyrics">lyrics</a>), itself something of a rambler’s lament:</p>
+<blockquote class="epigraph">
+<div><p>The wind knocks my window, the room it is wet<br>
+The words to say I’m sorry, I haven’t found yet<br>
+I think of her often and hope whoever she’s met<br>
+Will be fully aware of how precious she is<br></p>
+<p>Ah, my friends from the prison, they ask unto me<br>
+“How good, how good does it feel to be free?”<br>
+And I answer them most mysteriously<br>
+<strong>“Are birds free from the chains of the skyway?”</strong><br></p>
+<p class="attribution">—from “Ballad in Plain D” by Bob Dylan</p>
+</div></blockquote>
+<img alt="Album cover of Another Side of Bob Dylan" class="align-center" src="../../_images/another-side.jpg" />
+<p>I can’t find much information about the origins of “Too Many Bridges to Cross Over”, but the songwriting copyright is from 1968, while Dylan recorded “Ballad in Plain D” in June 1964.  I would love to know if Dallas Frazier was cribbing from Dylan on his line.  (My wife rightly notes that, as happens in science, it’s possible that two people came to the same idea independently around the same time.)</p>
+<p>And either way, how did Dylan come to it?  From the song’s <a class="reference external" href="https://en.wikipedia.org/wiki/Ballad_in_Plain_D">wikipedia page</a>, he was clearly (if perhaps subconsiously) influenced by an English folk tradition regarding the overall structure and melody.  But what about that final line, the one that for me makes the entire song?  If anybody reading this knows more about it, I’d love to hear it!</p>
+<p>I was also reminded of this motif by Big Thief’s <a class="reference external" href="https://www.youtube.com/watch?v=wBc-yGE7IkU">“Sparrow”</a>, which is a retelling of the story of Adam and Eve and the Fall of Man (which, it occurs to me, you could claim is a kind of rambler’s lament, where the ramblers are Adam and Eve and, by extension, all of humanity):</p>
+<blockquote class="epigraph">
+<div><p>Stuck to the wind like Velcro<br>
+Distantly hearing the bell toll</p>
+<p class="attribution">—from <a class="reference external" href="https://genius.com/Big-thief-sparrow-lyrics">“Sparrow”</a> by Big Thief</p>
+</div></blockquote>
+<p>Though no birds explicitly appear, Roxy Music’s great <a class="reference external" href="https://www.youtube.com/watch?v=kOnde5c7OG8">“More Than This”</a> does something similar:</p>
+<blockquote class="epigraph">
+<div><p>Fallen leaves in the night<br>
+Who can say where they’re blowing?<br>
+As free as the wind<br>
+Hopefully learning<br>
+Why the sea on the tide<br>
+Has no way of turning<br></p>
+<p class="attribution">—from <a class="reference external" href="https://genius.com/Roxy-music-more-than-this-lyrics">“More Than This”</a> by Roxy Music</p>
+</div></blockquote>
+<p>Especially in the context of the rest of the album, which would prove to be Roxy Music’s last after a ferocious 10-year run, “as free as the wind” isn’t a happy expression of limitless possibilities; it is a melancholy expression of indifference.  (As Ferry puts it on the title track, “Now the party’s over…I’m so tired.”)</p>
+<p>And bonus points for bringing in the ocean in the next three lines, in which to my ears “Hopefully learning” is Brian Ferry’s sardonic way of really saying “Never going to learn.”</p>
+</section>
+<section id="in-wisdom-traditions">
+<h2>In wisdom traditions<a class="headerlink" href="#in-wisdom-traditions" title="Link to this heading">#</a></h2>
+<p>This notion of the folly of being totally unbound by commitments—and using the atmosphere and ocean to depict that folly–has ancient roots.</p>
+<p>For example, from the Hebrew Bible, in Hosea (emphasis mine):</p>
+<blockquote class="epigraph">
+<div><p>When their swilling is over,<br>
+they go on to whore.<br>
+They love the disgrace of their defenders.<br>
+<strong>The wind bundles them in its wings,<br>
+and their alters are shamed.</strong><br></p>
+<p class="attribution">—Hosea 4:18-19</p>
+</div></blockquote>
+<p>This is from <a class="reference external" href="https://www.amazon.com/Hebrew-Bible-Translation-Commentary-Three/dp/0393292495">the translation</a> by Robert Alter, who’s note on the line is also relevant: “[T]he notion here of being bundled in the wings of the wind evokes the helpless passivity of the practitioners of vice carried away to their destruction.”</p>
+<p>A similar sentiment and imagery arises in the Book of James of the New Testament (emphasis mine):</p>
+<blockquote class="epigraph">
+<div><p>My brothers and sisters, whenever you face trials of any kind, consider it nothing but joy, because you know that the testing of your faith produces endurance; and let endurance have its full effect, so that you may be mature and complete, lacking in nothing.</p>
+<p>If any of you is lacking in wisdom, ask God, who gives to all generously and ungrudgingly, and it will be given you.  <strong>But ask in faith, never doubting, for the one who doubts is like a wave of the sea, driven and tossed by the wind; for the doubter, being double-minded and unstable in every way, must not expect to receive anything from the Lord.</strong></p>
+<p class="attribution">—James 1:2-8</p>
+</div></blockquote>
+<p>Likewise in ancient philosophy, though alas without any wind/birds/chains imagery (emphasis mine):</p>
+<blockquote class="epigraph">
+<div><p>But when in democracy everyone claims the freedom and the right to make and break laws, what soon follows, said Plato, is anarchy, <strong>for such freedom is not freedom but merely licence.</strong></p>
+<p class="attribution">—A. C. Grayling, from <a class="reference external" href="https://www.amazon.com/History-Philosophy-C-Grayling/dp/1984878743"><em>A History of Philosophy</em></a></p>
+</div></blockquote>
+<p>Fast-forward a few thousand years, David Foster Wallace touches on this in his deservedly lauded 2005 commencement speech, <a class="reference external" href="https://fs.blog/david-foster-wallace-this-is-water/"><em>This Is Water</em></a> (emphasis mine):</p>
+<blockquote class="epigraph">
+<div><p>Our own present culture has harnessed these forces in ways that have yielded extraordinary wealth and comfort and personal freedom.  <strong>The freedom all to be lords of our tiny skull-sized kingdoms, alone at the center of all creation.</strong>  This kind of freedom has much to recommend it.  <strong>But of course there are all different kinds of freedom</strong>, and the kind that is most precious you will not hear talked about much in the great outside world of wanting and achieving.  <strong>The really important kind of freedom involves attention and awareness and discipline, and being able truly to care about other people and to sacrifice for them over and over in myriad petty, unsexy ways every day.</strong></p>
+<p>That is real freedom.  That is being educated, and understanding how to think.  The alternative is unconsciousness, the default setting, the rat race, the constant gnawing sense of having had, and lost, some infinite thing.</p>
+<p class="attribution">—from <a class="reference external" href="https://www.amazon.com/This-Water-Delivered-Significant-Compassionate/dp/0316068225"><em>This Is Water</em></a> by David Foster Wallace</p>
+</div></blockquote>
+</section>
+<section id="in-atmospheric-and-oceanic-fluid-dynamics">
+<h2>In atmospheric and oceanic fluid dynamics<a class="headerlink" href="#in-atmospheric-and-oceanic-fluid-dynamics" title="Link to this heading">#</a></h2>
+<p>It’s interesting to me that the large-scale flows in our atmosphere (and ocean) are, because of the influence of the planet’s rotation and gravitational pull, themselves highly constrained in the ways they can flow: it’s hard to go up, fighting against gravity, and its hard to go in a straight line, because the planet’s rotation turns fluid parcels to the side.  In that sense, the bird’s skyway itself is chained by the physical laws governing fluid flows in a rapidly rotating, thin-shell atmosphere.</p>
+<p>What, in turn, are the physical laws “chained” to?  Perhaps, as Sturgill Simpson <a class="reference external" href="https://en.wikipedia.org/wiki/Turtles_all_the_way_down">reminds us</a>, it’s <a class="reference external" href="https://genius.com/Sturgill-simpson-turtles-all-the-way-down-lyrics">turtles all the way down the line</a>.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YvoVMtzof4U?si=3ojBsL7jyBe9Qybc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./posts/02_merle-bob"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../01_get-ready-for-storm/get-ready-for-storm.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Time to get ready for the storm</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#avian-shackles-in-contemporary-music">Avian shackles in contemporary music</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-wisdom-traditions">In wisdom traditions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-atmospheric-and-oceanic-fluid-dynamics">In atmospheric and oceanic fluid dynamics</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Spencer A. Hill
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>
+    <script src="https://utteranc.es/client.js"
+            repo="spencerahill/couldnt-stand-the-weather"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+</div>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

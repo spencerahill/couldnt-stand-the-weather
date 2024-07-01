@@ -1,5 +1,7 @@
 # Time to get ready for the storm
 
+June 9th, 2024
+
 *Executive Summary: This blog will discuss music, climate, weather, climate and weather in music, and climate and weather in other media (mediums?).*
 
 ## Intro
@@ -12,11 +14,29 @@ I have been doing something similar on Twitter for a while now via my [#CliSciHi
 
 ## The title
 
+```{figure} ./couldnt-stand.jpg
+---
+alt: Album cover of Couldn't Stand the Weather by Stevie Ray Vaughan and Double Trouble
+align: center
+---
+```
+
+[Couldn’t Stand The Weather](https://www.amazon.com/Couldnt-Weather-Legacy-Vaughan-Trouble/dp/B003MX5OOY/) is an album by Stevie Ray Vaughan and Double Trouble, their second, released in 1984. “Couldn’t Stand The Weather” is also the second track thereof---after the opener `[“Scuttle Buttin’”](https://youtu.be/IUsvRaRk9Fs), a personal SRV favorite.  It captures a couple things I’m trying to accomplish here.  First, obviously, is linking weather/climate and music. Second, less obviously, is fun. The song is funky, driving, a tune you can’t help but nod your head to.  It’s also bluesy, with a hell of a lot of soul.  I hope this blog ends up the same way: fun but with substance.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uH-ieWRfNx4?si=cHxLQ9_kfqorvfTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-bottom: 20px;"></iframe>
 
-[Couldn’t Stand The Weather](https://smile.amazon.com/Couldnt-Weather-Legacy-Vaughan-Trouble/dp/B003MX5OOY/) is an album by Stevie Ray Vaughan and Double Trouble, their second, released in 1984. “Couldn’t Stand The Weather” is also the second track thereof---after the opener `[“Scuttle Buttin’”](https://youtu.be/IUsvRaRk9Fs), a personal SRV favorite.  It captures a couple things I’m trying to accomplish here.  First, obviously, is linking weather/climate and music. Second, less obviously, is fun. The song is funky, driving, a tune you can’t help but nod your head to.  It’s also bluesy, with a hell of a lot of soul.  I hope this blog ends up the same way: fun but with substance.
+If you’re really feeling the SRV vibes, check out the song’s official [music video](https://youtu.be/nO23B5C_Mcw).  It’s good on a surface level for some laughs at the 1980s production cheese (see screenshot on the right). On a deeper level, sure the symbolic montage of people yelling at each other is heavy-handed---though in 2024, maybe it's right on the money---but it actually also connects with another of my aims: tuning out the shouting matches to just groove.  A lot of climate science media coverage and in the blogosphere is much closer to the shouting folks in the video than any of us would probably care to admit.  Here, we’re trying to be Stevie and the fellas jamming instead.
 
-If you’re really feeling the SRV vibes, check out the song’s official [music video](https://youtu.be/nO23B5C_Mcw).  It’s good on a surface level for some laughs at the 1980s production cheese. On a deeper level, sure the symbolic montage of people yelling at each other is heavy-handed---though in 2024, maybe it's right on the money---but it actually also connects with another of my aims: tuning out the shouting matches to just groove.  A lot of climate science media coverage and in the blogosphere is much closer to the shouting folks in the video than any of us would probably care to admit.  Here, we’re trying to be Stevie and the fellas jamming instead.
+```{figure} ./vid-screenshot.png
+---
+alt: Screenshot from the music video of two people shouting at each other.
+width: 350px
+align: center
+figclass: margin
+---
+From the official music video.  Let's avoid this.
+```
+
 
 In other words, I couldn't stand the weather, and this is the result.
 
